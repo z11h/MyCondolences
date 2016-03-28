@@ -1,0 +1,17 @@
+
+{
+  "name": "My Condolences",
+  "short_name": "My Condolences",
+  "description": "This nifty piece of software absolutely ruins your browsing experience on the web.",
+  "author": "Zakaria Ridouh",
+  "manifest_version": 2,
+  "default_locale": "en",
+  "version": "0.1",
+  "homepage_url": "https://github.com/ZakariaRidouh/MyCondolences#mycondolences",
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "permissions": ["*://*/*"],
+  "content_scripts": [{
+      "matches": ["*://*/*"],
+      "css": ["rip.css"]
+      }]
+}
