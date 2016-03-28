@@ -3,8 +3,8 @@ A Chrome extension that makes browsing the web absolute Hell.
 
 ## Features/TODO List
 - [x] No Cursor
-- [] Flashing & Decepearing Elements
-- [] Freezing page
+- [ ] Flashing & Decepearing Elements
+- [ ] Freezing page
 
 ## How to install
 
